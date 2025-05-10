@@ -2,7 +2,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { FaGithub } from "react-icons/fa";
 import Image from 'next/image';
 import Gpay from "../images/gpay.jpg";
-import MasterCard from "../images/MasterCard.jpg";
+import MasterCard from "../images/Mastercard.jpg";
 import Paypal from "../images/paypal.jpg";
 import Amex from "../images/amex.jpg";
 import Ipay from "../images/ipay.jpg";
