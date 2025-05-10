@@ -1,0 +1,38 @@
+.sidebar_container{
+    position: relative;
+}
+
+.sidebar{
+    width: 250px;
+    height: 100%;
+    padding: 16px;
+    border-right: 1px solid white;
+    background-color: white;
+    position: absolute;
+    left: -300px;
+    transition: left 1s ease;
+    z-index: 2;
+}
+
+.active{
+    left: 0;
+    transition: left 1s ease-in-out;
+}
+
+.check{
+    display: none;
+}
+
+.filter_group .filter_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.filter_option{
+    display: none;
+}
+
+.active{
+    display: block;
+}

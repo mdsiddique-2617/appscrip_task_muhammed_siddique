@@ -1,0 +1,84 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 30px 100px;
+    background-color: black;
+    color: white;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.subscribe input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe button{
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.payment_methods{
+    display: flex;
+    gap: 20px;
+}
+
+.payment_methods img{
+    border-radius: 10px;
+}
+
+.copyrights{
+    color: rgb(197, 197, 197);
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .footer{
+        padding: 20px 50px;
+    }
+
+    .footer_top{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer_bottom{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_bottom div{
+        width: 100%;
+    }
+
+    .payment_methods{
+        flex-wrap: wrap;
+    }
+    
+    .subscribe{
+        flex-direction: column;
+    }
+}
